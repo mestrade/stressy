@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<request>
+
+	<method value_type="clear" value="POST"/>
+	<uri value_type="clear" value="/horde3/imp/redirect.php"/>
+	<protocol value_type="clear" value="HTTP/1.1"/>
+	<header key_type="clear" key="Accept" value_type="clear" value="*/*"/>
+	<header key_type="clear" key="User-Agent" value_type="clear" value="Mozilla-3.0"/>
+	<header key_type="clear" key="Content-Type" value_type="clear" value="application/x-www-form-urlencoded"/>
+	<var name="Horde" value="995ad608480b2eb34744a808eec56d27" type="POST"/>
+	<var name="actionID" value="" type="POST"/>
+	<var name="url" value="" type="POST"/>
+	<var name="mailbox" value="INBOX" type="POST"/>
+	<var name="load_frameset" value="1" type="POST"/>
+	<var name="autologin" value="0" type="POST"/>
+	<var name="server" value="localhost" type="POST"/>
+	<var name="port" value="143" type="POST"/> 
+	<var name="namespace" value="" type="POST"/>
+	<var name="maildomain" value="bee-ware.net" type="POST"/>
+	<var name="protocol" value="imap%2Fnovalidate-cert" type="POST"/>
+	<var name="realm" value="" type="POST"/>
+	<var name="folders" value="mail%2F" type="POST"/>
+	<var name="imapuser" value="" type="POST"/>
+	<var name="pass" value="" type="POST" input_type="PASSWORD"/>
+	<var name="new_lang" value="fr_FR" type="POST"/>
+
+</request>

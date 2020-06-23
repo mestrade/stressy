@@ -1,0 +1,24 @@
+<stressy>
+
+	<worker active="no" value="10"/>
+	<disable_verbose active="yes" value="INFO"/>	
+
+	<crawler2 active="yes"/>
+	<crawler2_first_req active="yes"/>
+	<crawler2_exclude active="yes" value="\.(gif|jpg|pdf|png|css|ico)$"/>
+	
+	<insert_var active="yes" value="resources/insert_var.xml"/>
+	<escape_var active="yes" value="resources/escape_var.xml"/>
+	<error_detect active="yes" value="resources/error_detection.xml"/>
+	<form_auto_fill active="yes" value="resources/form_auto_fill.xml"/>
+	<brute_dir active="no" value="resources/directory_list.xml"/>
+
+	<form_auth_bruteforce active="yes" value="resources/login_pass.xml"/>
+	<form_auth_bruteforce_user_input active="yes" value="(?i)(user|login|name)"/>	
+	<form_auth_bruteforce_tolerance active="yes" value="10"/>
+
+	<basic_auth_bruteforce active="yes" value="resources/login_pass.xml"/>
+	<hexa_encoder_var active="yes"/>
+
+
+</stressy>

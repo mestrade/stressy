@@ -1,0 +1,8 @@
+<xml>
+
+	<param_fuzzer_compare_body active="yes"/>
+	<param_fuzzer_var active="yes" value=".*"/>
+	<param_fuzzer_setup active="yes" value="resources/param_fuzzer.xml"/>
+        <error_detect active="yes" value="resources/error_detection.txt"/>
+
+</xml>

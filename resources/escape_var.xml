@@ -1,0 +1,19 @@
+<escape_var>
+	<item name="quote">'</item>
+	<item name="encoded quote"><![CDATA[%27]]></item>
+	<item name="colum"><![CDATA[;]]></item>
+	<item name="encoded column"><![CDATA[%3B]]></item>
+	<item name="exec char"><![CDATA[`]]></item>
+	<item name="encoded exec char"><![CDATA[%60]]></item>
+	<item name="quote + null byte"><![CDATA['%00]]></item>
+	<item name="null byte"><![CDATA[%00]]></item>
+	<item name="null byte"><![CDATA[\0]]></item>
+	<item name="column + null byte"><![CDATA[;%00]]></item>
+	<item name="less than"><![CDATA[<]]></item>
+	<item name="more than"><![CDATA[>]]></item>
+	<item name="double quote"><![CDATA["]]></item>
+	<item name="sharp"><![CDATA[#]]></item>
+	<item name="backslash"><![CDATA[\]]></item>
+	<item name="encoded backslash"><![CDATA[%5C]]></item>
+	<item name="pipe"><![CDATA[|]]></item>
+</escape_var>

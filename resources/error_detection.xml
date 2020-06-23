@@ -1,0 +1,33 @@
+<error_detect>
+	<item name="jsp redirect error">(?i)jsperror</item>
+	<item name="Tomcat Error report">(?i)Error\ report</item>
+	<item name="PHP regexp error">(?i)eregi\(\)</item>
+	<item name="PHP regexp error - empty buffer"><![CDATA[(?i)REG_EMPTY]]></item>
+	<item name="Mysql error"><![CDATA[(?i)(supplied\ argument\ is\ not\ a\ valid\ MySQL\ result\ ressource)]]></item>
+	<item name="Mysql error"><![CDATA[(?i)(supplied\ argument\ is\ not\ a\ valid\ MySQL\ result\ ressource)]]></item>
+	<item name="Mysql connection error"><![CDATA[(?i)(is\ not\ allowed\ to\ connect\ to\ this\ MySQL\ server)]]></item>
+	<item name="SQL error"><![CDATA[(?i)(You\ have\ an\ error\ in\ your\ SQL\ syntax)]]></item>
+	<item name="Coldfusion error (possibly unavailable)"><![CDATA[(?i)(Error\ Occurred\ While\ Processing\ Request)]]></item>
+	<item name="Coldfusion error"><![CDATA[(?i)(The\ web\ site\ you\ are\ accessing\ has\ experienced\ an\ unexpected\ error)]]></item>
+	<item name="Colffusion error"><![CDATA[(?i)(Check\ the\ ColdFusion\ documentation\ to\ verify\ that\ you\ are\ using\ the\ correct\ syntax)]]></item>
+	<item name="PHP include error"><![CDATA[(?i)(include_path=)]]></item>
+	<item name="ASP Error"><![CDATA[(?i)(Microsoft\ OLE\ DB\ Provider\ for\ SQL\ Server\ error)]]></item>
+	<item name="ASP Error"><![CDATA[(?i)(Incorrect\ syntax\ near)]]></item>
+	<item name="MS-SQL Error"><![CDATA[(?i)(Microsoft\ OLE\ DB\ Provider\ for\ SQL\ Server\ error)]]></item>
+	<item name="MS-SQL Error"><![CDATA[(?i)(Microsoft\ OLE\ DB\ Provider\ for\ ODBC\ Drivers\ error)]]></item>
+	<item name="ODBC Error"><![CDATA[(?i)(The\ ODBC\ error\ returned\ this\ time)]]></item>
+	<item name="ODBC Error"><![CDATA[(?i)(ODBC\ SQL\ Server\ Driver)]]></item>
+	<item name="Input Error"><![CDATA[(?i)(Unexpected\ character\ in\ input)]]></item>
+	<item name="VBscript Error"><![CDATA[(?i)(Microsoft\ VBScript)]]></item>
+	<item name="File/code injection"><![CDATA[(?i)(failed\ to\ open\ stream)]]></item>
+	<item name="File/code injection"><![CDATA[(?i)(Failed\ opening)]]></item>
+	<item name="Cross site scripting"><![CDATA[(?i)(<script>alert\(\'hudefrude\'\)<\/script>)]]></item>
+	<item name="Cross site scripting"><![CDATA[(?i)(alert\(\'hudefrude\')]]></item>
+	<item name="Possible password file 1"><![CDATA[(?i)(\/bin\/bash)]]></item>
+	<item name="Possible password file 2"><![CDATA[(?i)(\/bin\/csh)]]></item>
+	<item name="Possible password file 3"><![CDATA[(?i)(\/bin\/sh)]]></item>
+	<item name="Possible password file 4"><![CDATA[(?i)(root:)]]></item>
+	<item name="Previous injected keyword 1"><![CDATA[(hudefrudehude)]]></item>
+	<item name="Possible id cmd result"><![CDATA[(?i)(uid=)]]></item>
+	<item name="Parse error in file include"><![CDATA[(?i)(Parse\ error)]]></item>
+</error_detect>

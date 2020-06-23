@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<request>
+	<method value_type="clear" value="POST"/>
+	<uri value_type="clear" value="/my/url"/>
+	<protocol value_type="clear" value="HTTP/1.1"/>
+	<header key_type="clear" key="Accept" value_type="clear" value="*/*"/>
+	<header key_type="clear" key="User-Agent" value_type="clear" value="Mozilla-3.0"/>
+	<header key_type="clear" key="Content-Type" value_type="clear" value="application/x-www-form-urlencoded"/>
+
+	<var name="CheckCookieSupport" value="1" type="COOKIE"/>
+	<var name="user_locale" value="en_US" type="COOKIE"/>
+	<var name="CustomCookie" value="2810b721ea241a0c358239fb0ae8b16b" type="COOKIE"/>
+
+	<var name="loginType" value="Standard" type="POST"/>
+	<var name="userName" value="admin" input_type="text" type="POST" />
+	<var name="password" value="test" input_type="password" type="POST"/>
+	<var name="HeightData" value="1171" type="POST"/>
+	<var name="Login" value="Sign+In" type="POST"/>
+</request>

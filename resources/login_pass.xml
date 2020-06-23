@@ -1,0 +1,7 @@
+<credential>
+	<item login="admin"/>
+	<item login="administrator"/>
+	<item login="guest"/>
+	<item login="user1"/>
+	<item login="root"/>
+</credential>

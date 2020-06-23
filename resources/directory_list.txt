@@ -1,0 +1,29 @@
+<directory_list>
+	<item name="/level/99/exec/"><![CDATA[/level/99/exec/]]></item>
+	<item name="/level/16/exec/"><![CDATA[/level/16/exec/]]></item>
+	<item name="/manager/"><![CDATA[/manager/]]></item>
+	<item name="/web-inf/"><![CDATA[/web-inf/]]></item>
+	<item name="/jmx-console/"><![CDATA[/jmx-console/]]></item>
+	<item name="/livehelp/"><![CDATA[/livehelp/]]></item>
+	<item name="/awstat/"><![CDATA[/awstat/]]></item>
+	<item name="/stats/"><![CDATA[/stats/]]></item>
+	<item name="/stat/"><![CDATA[/stat/]]></item>
+	<item name="/webstat/"><![CDATA[/webstat/]]></item>
+	<item name="/admin/"><![CDATA[/admin/]]></item>
+	<item name="/passwd/"><![CDATA[/passwd/]]></item>
+	<item name="/password/"><![CDATA[/password/]]></item>
+	<item name="/cvs/"><![CDATA[/cvs/]]></item>
+	<item name="/svn/"><![CDATA[/svn/]]></item>
+	<item name="/.cvs/"><![CDATA[/.cvs/]]></item>
+	<item name="/.svn/"><![CDATA[/.svn/]]></item>
+	<item name="/.git/"><![CDATA[/.git/]]></item>
+	<item name="/.subversion/"><![CDATA[/.subversion/]]></item>
+	<item name="/perso/"><![CDATA[/perso/]]></item>
+	<item name="/secret/"><![CDATA[/secret/]]></item>
+	<item name="/shadow/"><![CDATA[/shadow/]]></item>
+	<item name="/mysql/"><![CDATA[/mysql/]]></item>
+	<item name="/phpmyadmin/"><![CDATA[/phpmyadmin/]]></item>
+	<item name="/mssql/"><![CDATA[/mssql/]]></item>
+	<item name="/backoffice/"><![CDATA[/backoffice/]]></item>
+	<item name="Joomla Administrator"><![CDATA[/administrator/]]></item>
+</directory_list>

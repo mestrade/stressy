@@ -1,0 +1,18 @@
+<xml>
+
+
+	<fuzz value="%3C" repeat_value="1"/>
+	<fuzz value="%3E" repeat_value="1"/>
+	<fuzz value="'" repeat_value="1"/>
+	<fuzz value=";" repeat_value="1"/>
+	<fuzz value="|" repeat_value="1"/>
+	<fuzz value="`" repeat_value="1"/>
+
+	<fuzz value="A" repeat_value="258"/>
+	<fuzz value="A" repeat_value="524"/>
+	<fuzz value="A" repeat_value="1032"/>
+	<fuzz value="A" repeat_value="4096"/>
+	<fuzz value="A" repeat_value="8000"/>
+
+
+</xml>

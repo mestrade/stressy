@@ -1,0 +1,11 @@
+<stressy>
+
+	<worker active="no" value="10"/>
+	<disable_verbose active="yes" value="INFO"/>	
+
+	<insert_var active="yes" value="resources/insert_var.txt"/>
+	<escape_var active="yes" value="resources/escape_var.txt"/>
+	<error_detect active="yes" value="resources/error_detection.txt"/>
+	<form_auto_fill active="yes" value="resources/form_auto_fill.xml"/>
+
+</stressy>

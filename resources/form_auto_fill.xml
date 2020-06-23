@@ -1,0 +1,11 @@
+<form_auto_fill>
+	<var pattern_type="clear" pattern="(?i)(id)" fill_with="5656"/>
+	<var pattern_type="clear" pattern="(?i)(jobtittle|tittle)" fill_with="chief executive officer"/>
+	<var pattern_type="clear" pattern="(?i)(addr|location|adress|ville|town|city)" fill_with="Sydney"/>
+	<var pattern_type="clear" pattern="(?i)(cp|postal)" fill_with="34455"/>
+	<var pattern_type="clear" pattern="(?i)(prenom|firstname|first_name)" fill_with="peter"/>
+	<var pattern_type="clear" pattern="(?i)(mail|email|courrier)" fill_with="peter.pan@gmail.com"/> 
+	<var pattern_type="clear" pattern="(?i)(nom|name|lastname|last_name)" fill_with="nash"/>
+	<var pattern_type="clear" pattern="(?i)(tel|phone|telephone|fax)" fill_with="+32123456789"/>
+	<var pattern_type="clear" pattern="(?i)(societe|company)" fill_with="foo company"/>
+</form_auto_fill>

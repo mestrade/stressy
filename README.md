@@ -9,6 +9,8 @@
 + a C compiler
 + libapr and libaprutil from Apache
 
+### Build
+
 ```
 autoreconf -isf
 ./configure
